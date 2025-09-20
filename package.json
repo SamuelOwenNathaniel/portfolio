@@ -1,6 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
+  "homepage": "https://samuelowennathaniel.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +10,6 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-     "postbuild": "shx cp dist/index.html dist/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
